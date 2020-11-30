@@ -1,6 +1,6 @@
 ## Netflix
 
-🇺🇸 A basic frontend project of Netlix.
+🇺🇸 A basic frontend project of Netflix.
 
 -----------------
 
