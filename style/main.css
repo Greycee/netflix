@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: #e50914;
+  --secondary: #141414;
+  --tertiary: #aaa;
+  --white: #fff;
+}
+
+body {
+  background: var(--secondary);
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--white);
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 100px;
+  margin-top: 10px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: var(--tertiary);
+  margin-right: 10px;
+}
+
+header nav a:hover {
+  color: var(--white);
+}
+
+.container {
+  margin-left: 30px;
+}
+
+.main-movie {
+  font-size: 16px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%),
+    url('../img/gambito.jpeg');
+  height: 400px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.main-movie .container {
+  width: 70%;
+}
+
+.title {
+  font-size: 40px;
+}
+
+.description {
+  margin-bottom: 40px;
+}
+
+.button {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  color: var(--white);
+  padding: 15px 30px;
+  cursor: pointer;
+  transition: 0.3s ease all;
+}
+
+.button:hover {
+  background-color: var(--white);
+  color: var(--secondary);
+}
+
+.movie-box {
+  height: 50%;
+  width: 50%;
+}
